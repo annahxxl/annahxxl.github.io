@@ -63,7 +63,7 @@ yat:
 # header_transparent: true
 
 # If you want to change the content width, you can set to another value
-# content_width: "920px"
+content_width: "1200px"
 
 # Google analytics
 # google_analytics: [Tracking ID]
@@ -148,9 +148,9 @@ yat:
 # this and add the path to the pages in order as they should show up
 header_pages:
   - index.html
-  - archives.html
   - categories.html
   - tags.html
+  - archives.html
   - about.html
 
 # Page default value
