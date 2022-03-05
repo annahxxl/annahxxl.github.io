@@ -103,17 +103,17 @@ print(a // b) # 1
 a = 93
 
 if a == 100:
-  print('만점')
+    print('만점')
 elif a >= 90:
-  print('A')
+    print('A')
 elif a >= 80:
-  print('B')
+    print('B')
 elif a >=70:
-  print('C')
+    print('C')
 elif a >=60:
-  print('D')
+    print('D')
 else:
-  print(F)
+    print(F)
 ```
 
 ## 반복문
@@ -138,7 +138,7 @@ print(arr) # [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 arr = []
 
 for i in range(10):
-  arr.append(i)
+    arr.append(i)
 print(arr) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
@@ -148,9 +148,9 @@ print(arr) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 arr = []
 
 for i in range(10):
-  arr.append(i)
+    arr.append(i)
 else: # 반복문이 break에 의해 종료되지 않고 정상적으로 반복문이 종료된다면 실행
-  print(arr) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    print(arr) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
 ### while
@@ -161,8 +161,8 @@ arr = []
 i = 1
 
 while i < 10:
-  arr.append(i)
-  i += 1
+    arr.append(i)
+    i += 1
 
 print(arr) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
@@ -179,9 +179,9 @@ print(arr) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 arr = []
 
 for i in range(10):
-  if i % 2 == 0:
-    continue
-  arr.append(i)
+    if i % 2 == 0:
+        continue
+    arr.append(i)
 
 print(arr) # [1, 3, 5, 7, 9]
 
@@ -190,9 +190,9 @@ print(arr) # [1, 3, 5, 7, 9]
 arr = []
 
 for i in range(10):
-  if i == 5:
-    break
-  arr.append(i)
+    if i == 5:
+        break
+    arr.append(i)
 
 print(arr) # [0, 1, 2, 3, 4]
 ```
@@ -432,11 +432,11 @@ print(a) # []
 a = [1, 2, 3]
 
 for i in enumerate(a):
-  print(i) # (0, 1) ... (2, 3)
-  print(i[0], i[1]) # 0 1 ... 2 3
+    print(i) # (0, 1) ... (2, 3)
+    print(i[0], i[1]) # 0 1 ... 2 3
 
 for index, value in enumerate(a):
-  print(index, value) # 0 1 ... 2 3
+    print(index, value) # 0 1 ... 2 3
 ```
 
 ### all
@@ -445,14 +445,14 @@ for index, value in enumerate(a):
 a = [1, 2, 3]
 
 if all(x > 0 for x in a):
-  print('YES') # YES
+    rint('YES') # YES
 else:
-  print('NO')
+    print('NO')
 
 if all(x > 2 for x in a):
-  print('YES')
+    print('YES')
 else:
-  print('NO') # NO
+    print('NO') # NO
 ```
 
 ### any
@@ -461,16 +461,16 @@ else:
 a = [1, 2, 3]
 
 if any(x > 2 for x in a):
-  print('YES') # YES
+    print('YES') # YES
 else:
-  print('NO')
+    print('NO')
 ```
 
 ## 함수
 
 ```python
 def add(a, b):
-  return a + b
+    return a + b
 
 print(add(1, 3)) # 4
 ```

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[모두의 알고리즘] 첫째마당: 알고리즘 기초"
+title: "[모두의 알고리즘] 첫째 마당: 알고리즘 기초"
 subtitle: 책 "모두의 알고리즘"을 통한 학습 내용 정리 ✍
 categories: Algorithm
 tags: [모두의_알고리즘, BigO, List, Set]
@@ -54,11 +54,11 @@ nums = list(map(int, input().split()))
 
 # O(n)
 def solution(arr):
-  minimum = 2147000000
-  for i in arr:
-    if i < minimum:
-      minimum = i
-  return minimum
+    minimum = 0
+    for i in arr:
+        if i < minimum:
+            minimum = i
+    return minimum
 
 # 출력
 print(solution(nums))
@@ -72,10 +72,10 @@ people = list(input().split())
 
 # O(n**2)
 def solution(arr):
-  n = len(arr)
-  for i in range(0, n - 1):
-    for j in range(i + 1, n):
-      print('{0} - {1}'.format(arr[i], arr[j]))
+    n = len(arr)
+    for i in range(0, n - 1):
+        for j in range(i + 1, n):
+            print('{0} - {1}'.format(arr[i], arr[j]))
 
 # 출력
 solution(people)
