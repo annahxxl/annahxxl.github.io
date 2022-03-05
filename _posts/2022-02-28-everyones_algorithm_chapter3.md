@@ -6,7 +6,7 @@ categories: Algorithm
 tags: [모두의_알고리즘, 선택_정렬, 삽입_정렬, 병합_정렬, 퀵_정렬, 거품_정렬, 이분_탐색]
 ---
 
-### [https://visualgo.net/en](https://visualgo.net/en)
+### [https://visualgo.net/en](https://visualgo.net/en){:target='_blank'}
 
 - 애니메이션을 통한 데이터 구조 및 알고리즘을 시각화해서 보여주는 사이트입니다.
 - 아래의 시각화 GIF들은 모두 해당 사이트에서 확인해 볼 수 있습니다 :)
