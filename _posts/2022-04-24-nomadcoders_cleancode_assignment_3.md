@@ -20,5 +20,5 @@ tags: [Clean_Code, 코딩, 개발자, 노마드북클럽, 노개북]
 
 ### 🤔 궁금한 내용이 있거나, 잘 이해되지 않는 내용이 있다면 적어보세요.
 
-- javabean 표준
-- JobQueue
+- javabean 표준 (p.32)
+- JobQueue (p.34)
