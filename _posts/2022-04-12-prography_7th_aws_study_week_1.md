@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[AWS] 운영 서버와 AWS 소개, 운영 서버 환경의 구성"
-subtitle: 프로그라피 7기 AWS 스터디 1주차 학습 내용 정리 ✍
+title: "[AWS] 프로그라피 7기 AWS 스터디 1주차 학습 내용 정리"
+subtitle: 🔖 1장. 클라우드와 아마존 웹 서비스 - 2장. 확장성과 안정성 높은 서버 만들기
 categories: DevOps
 tags: [AWS_Discovery_Book, 클라우드, EC2]
 ---
