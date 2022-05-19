@@ -20,7 +20,7 @@ tags: [Github Actions, CI/CD]
 그래서 ec2 인스턴스에 접속해 러너 로그를 아래의 명령어로 확인해 보았고, 조회된 내용이다.
 
 ```bash
-tail -f nohup.out
+tail -f ./actions-runner/nohup.out
 ```
 
 <img align="left" alt="스크린샷 2022-04-27 19 11 44" style="margin-bottom: 24px;" src="https://user-images.githubusercontent.com/76666857/165499700-17a62b70-3474-4685-aed8-372ce46ce35e.png">
